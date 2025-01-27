@@ -1,0 +1,49 @@
+.user-list-container {
+    margin-top: 20px;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    background-color: #f9f9f9; /* Light gray background for list items */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+  }
+  
+  .edit-button, .delete-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #28a745; /* Green for edit */
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c; /* Red for delete */
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
